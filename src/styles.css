@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 153, 153, 0),
+    rgb(48, 206, 245)
+  );
+  height: 100vh;
+  font-family: Verdana, Geneva, sans-serif;
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  font-weight: 100;
+  font-size: 3rem;
+  letter-spacing: 0.02em;
+  margin-bottom: 0;
+  color: rgb(36, 69, 218);
+  font-family: sans-serif;
+}
+
+.h1 {
+  font-family: cursive;
+}
+
+.container {
+  margin: 0 auto;
+  width: 500px;
+}
+
+input {
+  width: 100%;
+  font-size: 1.5rem;
+  padding: 9px 0px;
+  padding-right: 0px;
+  margin-top: 0.5em;
+  border: 1px solid rgb(0, 117, 153);
+  border-radius: 6px;
+  font-family: Courier;
+  text-align: center;
+  margin-left: 0px;
+}
+
+.label {
+  color: rgb(51, 105, 255);
+}
+
+form {
+  border-radius: 5px;
+  background-color: rgba(144, 226, 247, 0.788);
+  padding: 18px;
+  padding-left: 0px;
+  padding-right: 1px;
+}
+
+.button1 {
+  background-color: rgb(103, 179, 250);
+  color: rgb(245, 229, 229);
+  border: 2px solid white;
+  border-radius: 5px;
+  margin-left: 1px;
+}
+.button1:hover {
+  background-color: rgb(73, 189, 243);
+  color: rgb(218, 211, 211);
+  border: 3px solid #2a99e4;
+}
+
+.error-input {
+  border: 1px solid red;
+  border-radius: 4px;
+  padding-right: 0px;
+}
+
+.error-text {
+  margin: 0.25em 0 0 0;
+  padding: 0;
+  color: red;
+  font-style: bold;
+  font-size: 1.2rem;
+}
