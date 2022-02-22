@@ -14,9 +14,9 @@ export default function validateAuth(values) {
   if (!values.created) {
     errors.created = "* Required Created Date *";
   }
-  // From Date Errors
+  // From - To Date Errors
   if (!values.from) {
-    errors.from = "* Required From Date *";
+    errors.from = "* Required From - To Date *";
   }
   // Good Value Errors
   if (!values.good) {

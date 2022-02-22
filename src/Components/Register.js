@@ -73,7 +73,7 @@ function Register() {
         /><br></br>
         {errors.created && <p className="error-text">{errors.created}</p>}<br></br>
 
-        <label className='label'><b>From</b></label>
+        <label className='label'><b>From - To</b></label>
         <input
           onChange={handleChange}
           onBlur={handleBlur}
@@ -81,7 +81,7 @@ function Register() {
           className={errors.from && "error-input"}
           name="from"
           type="text"
-          placeholder="Enter From Date"
+          placeholder="Enter From - To Date"
         /><br></br>
         {errors.from && <p className="error-text">{errors.from}</p>}<br></br>
 

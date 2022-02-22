@@ -21,7 +21,7 @@ export default function Result() {
               <TableCell> <b>Site Name </b></TableCell>
               <TableCell> <b>Reporter</b></TableCell>
               <TableCell> <b>Created</b></TableCell>
-              <TableCell> <b>From</b></TableCell>
+              <TableCell> <b>From - To</b></TableCell>
               <TableCell> <b>Good</b></TableCell>
               <TableCell> <b>Moderate</b></TableCell>
               <TableCell> <b>High</b></TableCell>
