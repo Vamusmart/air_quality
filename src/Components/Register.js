@@ -37,7 +37,7 @@ function Register() {
       <br></br>
       <form onSubmit={handleContinue}>
 
-        <label className='label'><b>Site Name</b></label>
+        <label className='label'><b>Location</b></label>
         <input
           onChange={handleChange}
           onBlur={handleBlur}
@@ -49,7 +49,7 @@ function Register() {
         /><br></br>
         {errors.siteName && <p className="error-text">{errors.siteName}</p>}<br></br>
 
-        <label className='label'><b>Reporter</b></label>
+        <label className='label'><b>Compiled by</b></label>
         <input
           onChange={handleChange}
           onBlur={handleBlur}
@@ -61,7 +61,7 @@ function Register() {
         /><br></br>
         {errors.reporter && <p className="error-text">{errors.reporter}</p>}<br></br>
 
-        <label className='label'><b>Created</b></label>
+        <label className='label'><b>Compiled on</b></label>
         <input
           onChange={handleChange}
           onBlur={handleBlur}
@@ -73,7 +73,7 @@ function Register() {
         /><br></br>
         {errors.created && <p className="error-text">{errors.created}</p>}<br></br>
 
-        <label className='label'><b>From - To</b></label>
+        <label className='label'><b>Monitoring period</b></label>
         <input
           onChange={handleChange}
           onBlur={handleBlur}

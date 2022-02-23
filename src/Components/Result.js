@@ -18,10 +18,10 @@ export default function Result() {
         <Table border='2' style={{ width: '90%', justifyContent: 'center', fontfamily: 'Courier', background: 'rgb(230, 249, 255)' }} size='small' aria-label='caption table'>
           <TableHead>
             <TableRow style={{ backgroundColor: 'rgb(102, 219, 255)', color: 'black' }}>
-              <TableCell> <b>Site Name </b></TableCell>
-              <TableCell> <b>Reporter</b></TableCell>
-              <TableCell> <b>Created</b></TableCell>
-              <TableCell> <b>From - To</b></TableCell>
+              <TableCell> <b>Location </b></TableCell>
+              <TableCell> <b>Compiled by</b></TableCell>
+              <TableCell> <b>Compiled on</b></TableCell>
+              <TableCell> <b>Monitoring period</b></TableCell>
               <TableCell> <b>Good</b></TableCell>
               <TableCell> <b>Moderate</b></TableCell>
               <TableCell> <b>High</b></TableCell>

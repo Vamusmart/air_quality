@@ -13,7 +13,8 @@ export default function GeneratePDF() {
   const generate = () => {
     const doc = new jsPDF();
     const tableRows = [];
-    const tableColumn = ['Site Name', 'Reporter', 'Created', 'From - To', 'Good', 'Moderate', 'High'];
+    const tableColumn = ['Location', 'Compiled by', 'Compiled on', 'Monitoring period', 'Good', 'Moderate', 'High'];
+
 
     const tData = [userData.values.siteName,
     userData.values.reporter,
