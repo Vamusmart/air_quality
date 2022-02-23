@@ -26,19 +26,7 @@ function SecondStep() {
   } = useFormValidation(INITIAL_STATE, validateAuth);
 
 
-  const { userData, data, setData } = useContext(multiStepContext);
-
-
-  const arrayMax = (arr) => {
-    var len = arr.length, max = -Infinity;
-    while (len--) {
-      if (arr[len] > max) {
-
-        max = arr[len];
-      }
-    }
-    return max;
-  };
+  const { userData } = useContext(multiStepContext);
 
   return (
     <div className="container">
@@ -46,25 +34,25 @@ function SecondStep() {
       <br></br><br></br>
 
 
-      <TextField label="Site Name"
+      <TextField label="Location"
         value={userData.values['siteName']}
         margin='normal'
         variant='outlined'
         color='secondary'
         disabled /> <span></span>
-      <TextField label="Reporter"
+      <TextField label="Compiled by"
         value={userData.values['reporter']}
         margin='normal'
         variant='outlined'
         color='secondary'
         disabled /> <span></span>
-      <TextField label="Created"
+      <TextField label="Compiled on"
         value={userData.values['created']}
         margin='normal'
         variant='outlined'
         color='secondary'
         disabled /> <span></span>
-      <TextField label="From"
+      <TextField label="Monitoring period"
         value={userData.values['from']}
         margin='normal'
         variant='outlined'
